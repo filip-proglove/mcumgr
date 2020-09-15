@@ -16,7 +16,7 @@
 # under the License.
 
 if(CONFIG_MCUMGR)
-target_include_directories(MCUMGR INTERFACE
+zephyr_include_directories(MCUMGR INTERFACE
     include
 )
 
